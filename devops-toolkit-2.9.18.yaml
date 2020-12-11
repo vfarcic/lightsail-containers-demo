@@ -1,0 +1,9 @@
+serviceName: devops-toolkit
+containers:
+  devops-toolkit:
+    image: vfarcic/devops-toolkit-series:2.9.18
+    ports: 
+      "80": HTTP
+publicEndpoint: # An object
+  containerName: devops-toolkit
+  containerPort: 80
